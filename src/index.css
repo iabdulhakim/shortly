@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ! GLOBAL STYLES */
+
+:root {
+    --blackish-color: #34313D;
+    --blackpurple-color: #3A3054;
+    --purple-color: #4B3F6B;
+    --grey-color: #9E9AA8;
+    --lightgrey-color: #EFF1F7;
+    --aqua-color: #2BD0D0;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1210px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero{
+    background-image: url(../public/hero-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.hero-title{
+    line-height: 112.5%;
+}
+
+form{
+    background-image: url(../public/search-bg.png);
+    background-repeat: no-repeat;
+}
+
+.boost{
+    background-image: url(../public/boost-bg.png);
+}
+
+svg:hover path{
+    fill: #2BD0D0;
+}
