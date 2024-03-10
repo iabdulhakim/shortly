@@ -16,6 +16,7 @@
 
 body{
     font-family: "Poppins";
+    background-color: #fff;
 }
 
 a{
@@ -37,6 +38,21 @@ a, button{
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        max-width: 400px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .hero{
+        background-position: left;
+        background-repeat: no-repeat;
+    }
 }
 
 .hero{

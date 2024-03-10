@@ -1,11 +1,11 @@
 const Footer = () => {
   return (
     <div className="bg-[#232127]">
-      <div className="container flex pt-[72px] pb-[70px]">
+      <div className="container flex md:flex-row flex-col pt-[72px] pb-[70px]">
         <a href="" className="md:mr-[260px]">
           <img src="./logo-dark.svg" alt="" className="" />
         </a>
-        <div className="flex gap-[80px] md:mr-[100px]">
+        <div className="flex md:flex-row flex-col gap-[80px] md:mr-[100px]">
           <div className="flex flex-col">
             <h4 className="text-white font-semibold text-[16px] mb-[22px]">
               Features

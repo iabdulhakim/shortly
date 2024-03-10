@@ -3,10 +3,10 @@ const Header = () => {
     <>
       <div className="container">
         <header className="flex items-center pt-8">
-          <a href="" className="mr-12">
+          <a href="" className="md:mr-12 mr-0">
             <img src="./logo.svg" alt="" className="" />
           </a>
-          <nav className="flex items-center gap-[30px]">
+          <nav className="md:flex items-center gap-[30px] hidden">
             <a
               href="#"
               className="text-[var(--grey-color)] font-bold text-[15px] hover:text-[var(--blackish-color)] transition-all"
@@ -26,13 +26,29 @@ const Header = () => {
               Resources
             </a>
           </nav>
-          <div className="flex items-center ml-auto">
+          <div className="md:flex items-center ml-auto hidden">
             <button className="mr-8 text-[var(--grey-color)] font-bold text-[15px] hover:text-[var(--blackish-color)] transition-all">
               Login
             </button>
             <button className="text-white bg-[var(--aqua-color)] font-bold rounded-3xl px-6 py-2 text-[15px] hover:opacity-65 transition-all">
               Sign Up
             </button>
+          </div>
+          <div className="dropdown bg-white dropdown-bottom dropdown-end ml-auto">
+            <a href="#" tabIndex={0} role="button" className=" m-1 md:hidden ">
+              <img src="./menu.svg" alt="" className="" />
+            </a>
+            <ul
+              tabIndex={0}
+              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a>Item 1</a>
+              </li>
+              <li>
+                <a>Item 2</a>
+              </li>
+            </ul>
           </div>
         </header>
       </div>

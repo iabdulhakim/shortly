@@ -11,7 +11,7 @@ const Advanced = () => {
             statistics dashboard.
           </p>
         </div>
-        <div className="flex gap-[30px]  pb-[120px]">
+        <div className="flex md:flex-row flex-col gap-[30px]  pb-[120px]">
           <div className="bg-white h-[250px] px-8 w-[350px] mt-[100px] rounded-[5px]">
             <img src="./advanced1.svg" alt="" className="absolute mt-[-44px]" />
             <h4 className="text-[22px] font-bold text-[var(--blackish-color)] pt-20">
