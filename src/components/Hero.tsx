@@ -11,7 +11,7 @@ const Hero = () => {
             </p>
             <button className="md:self-start self-center mt-10 text-white bg-[var(--aqua-color)] px-10 py-3 rounded-[28px] hover:opacity-60 text-[20px] font-bold">Get Started</button>
           </div>
-          <img src="./hero.png" alt="" className="h-[269px] w-[327px] flex items-center" />
+          <img src="./hero.png" alt="" className="h-[269px] w-[327px] md:h-[397px] md:w-[482px] flex items-center" />
         </div>
       </div>
     </>

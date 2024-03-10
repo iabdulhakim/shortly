@@ -2,12 +2,12 @@ const Footer = () => {
   return (
     <div className="bg-[#232127]">
       <div className="container flex md:flex-row flex-col pt-[72px] pb-[70px]">
-        <a href="" className="md:mr-[260px]">
+        <a href="" className="md:mr-[260px] mr-auto ml-auto md:ml-0">
           <img src="./logo-dark.svg" alt="" className="" />
         </a>
         <div className="flex md:flex-row flex-col gap-[80px] md:mr-[100px]">
-          <div className="flex flex-col">
-            <h4 className="text-white font-semibold text-[16px] mb-[22px]">
+          <div className="flex flex-col self-center text-center">
+            <h4 className="text-white font-semibold text-[16px] mb-[22px] md:mt-0 mt-10">
               Features
             </h4>
             <a
@@ -29,7 +29,7 @@ const Footer = () => {
               Analytics
             </a>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col self-center text-center">
             <h4 className="text-white font-semibold text-[16px] mb-[22px]">
               Resources
             </h4>
@@ -52,7 +52,7 @@ const Footer = () => {
               Support
             </a>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col self-center text-center">
             <h4 className="text-white font-semibold text-[16px] mb-[22px]">
               Company
             </h4>
@@ -82,7 +82,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5 md:self-start self-center md:mt-0 mt-10">
           {/* Facebook */}
           <a href="" className="">
             <svg

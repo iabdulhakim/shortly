@@ -11,8 +11,8 @@ const Advanced = () => {
             statistics dashboard.
           </p>
         </div>
-        <div className="flex md:flex-row flex-col gap-[30px]  pb-[120px]">
-          <div className="bg-white h-[250px] px-8 w-[350px] mt-[100px] rounded-[5px]">
+        <div className="flex md:flex-row flex-col gap-[30px] pb-[120px]">
+          <div className="bg-white h-[250px] px-8 w-[350px] md:mt-[100px] mt-[92px]  rounded-[5px]">
             <img src="./advanced1.svg" alt="" className="absolute mt-[-44px]" />
             <h4 className="text-[22px] font-bold text-[var(--blackish-color)] pt-20">
               Brand Recognition
@@ -23,7 +23,7 @@ const Advanced = () => {
               content.
             </p>
           </div>
-          <div className="bg-white h-[250px] px-8 w-[350px] mt-[144px] rounded-[5px]">
+          <div className="bg-white h-[250px] px-8 w-[350px] md:mt-[144px] mt-[92px] rounded-[5px]">
             <img src="./advanced2.svg" alt="" className="absolute mt-[-44px]" />
             <h4 className="text-[22px] font-bold text-[var(--blackish-color)] pt-20">
               Detailed Records
@@ -34,7 +34,7 @@ const Advanced = () => {
               decisions.
             </p>
           </div>
-          <div className="bg-white h-[250px] px-8 w-[350px] mt-[188px] rounded-[5px]">
+          <div className="bg-white h-[250px] px-8 w-[350px] md:mt-[188px] mt-[92px] rounded-[5px]">
             <img src="./advanced3.svg" alt="" className="absolute mt-[-44px]" />
             <h4 className="text-[22px] font-bold text-[var(--blackish-color)] pt-20">
               Fully Customizable
